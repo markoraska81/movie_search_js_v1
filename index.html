@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div id="page-container">
+      <h1>Pretraga filmova</h1>
+      <form action="" id="search-books">
+        <input id="searchInput" onkeyup="movieSearch()" type="text"  name="search" placeholder="search movie...">
+      </form>
+    </div>
+  </header>
+  <main>
+    <div id="movie-container">
+      <div class="movie">
+          <img src="./img/shawshank.png" />
+          <h2>The Shawshank Redemption</h2>
+          <p class="info-container">
+            <i class="fa fa-star-o"><span> 9,2/10</span></i>
+            <i class="fa fa-calendar"><span> 1994</span></i>
+          </p>
+        </div>
+        <div class="movie">
+          <img src="./img/lock-stock.png" />
+          <h2>Lock, Stock and Two Smoking Barrels</h2>
+          <p class="info-container">
+            <i class="fa fa-star-o"><span> 8,2/10</span></i>
+            <i class="fa fa-calendar"><span> 1998</span></i>
+          </p>
+        </div>
+        <div class="movie">
+          <img src="./img/snatch.png" />
+          <h2>Snatch</h2>
+          <p class="info-container">
+            <i class="fa fa-star-o"><span> 8,3/10</span></i>
+            <i class="fa fa-calendar"><span> 2000</span></i>
+          </p>
+        </div>
+        <div class="movie">
+          <img src="./img/no-country-for-old-man.png" />
+          <h2>No Country for Old Men</h2>
+          <p class="info-container">
+            <i class="fa fa-star-o"><span> 8,1/10</span></i>
+            <i class="fa fa-calendar"><span> 2007</span></i>
+          </p>
+        </div>
+        <div class="movie">
+          <img src="./img/full-metal-jacket.png" />
+          <h2>Full Metal Jacket</h2>
+          <p class="info-container">
+            <i class="fa fa-star-o"><span> 8,3/10</span></i>
+            <i class="fa fa-calendar"><span> 1987</span></i>
+          </p>
+      </div>
+      <div class="movie">
+        <img src="./img/shindlers-list.png" />
+        <h2>Schindler's List</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,9</span></i>
+          <i class="fa fa-calendar"><span> 1993</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/django.png" />
+        <h2>Django Unchained</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,4</span></i>
+          <i class="fa fa-calendar"><span> 2012</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/pulp-fiction.png" />
+        <h2>Pulp Fiction</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,8</span></i>
+          <i class="fa fa-calendar"><span> 1994</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/once-upon-time.png" />
+        <h2>Once Upon A Time In The West</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,5</span></i>
+          <i class="fa fa-calendar"><span> 1968</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/magnificent-seven.png" />
+        <h2>The Magnificent Seven</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 7,7</span></i>
+          <i class="fa fa-calendar"><span> 1960</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/prestige.png" />
+        <h2>Prestige</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,5</span></i>
+          <i class="fa fa-calendar"><span> 2006</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/city-of-god.png" />
+        <h2>City Of God</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,6</span></i>
+          <i class="fa fa-calendar"><span> 2002</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/fight-club.png" />
+        <h2>Fight Club</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,8</span></i>
+          <i class="fa fa-calendar"><span> 1999</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/godfather.png" />
+        <h2>The Godfather</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 9,1</span></i>
+          <i class="fa fa-calendar"><span> 1972</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/few-dollars.png" />
+        <h2>For A Few Dollars More</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,3</span></i>
+          <i class="fa fa-calendar"><span> 1965</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/fistfull-dollars.png" />
+        <h2>A Fistful of Dollars</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,3</span></i>
+          <i class="fa fa-calendar"><span> 1964</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/good-bad-ugly.png" />
+        <h2>The Good, The Bad And The Ugly</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,9</span></i>
+          <i class="fa fa-calendar"><span> 1966</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/lord-of-the-ring.png" />
+        <h2>The Lord of the Rings: The Fellowship of the Ring</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,8</span></i>
+          <i class="fa fa-calendar"><span> 2009</span></i>
+        </p>
+      </div>
+        <div class="movie">
+        <img src="./img/inglourios-basterds.png" />
+        <h2>Inglourious Basterds</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,3</span></i>
+          <i class="fa fa-calendar"><span> 2009</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/green-miles.png" />
+        <h2>The Green Mile</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,5</span></i>
+          <i class="fa fa-calendar"><span> 1999</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/forrest-gump.png" />
+        <h2>Forrest Gump</h2>
+        <p class="info-container">
+        <i class="fa fa-star-o"><span> 8,8</span></i>
+        <i class="fa fa-calendar"><span> 1994</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/space-odyssey.png" />
+        <h2>2001: A Space Odyssey</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,3</span></i>
+          <i class="fa fa-calendar"><span> 1968</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/clockwork-orange.png" />
+        <h2>A Clockwork Orange</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,3</span></i>
+          <i class="fa fa-calendar"><span> 1971</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/saving-private-ryan.png" />
+        <h2>Saving Private Ryan</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,6</span></i>
+          <i class="fa fa-calendar"><span> 1998</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/vendeta.png" />
+        <h2>V For Vendeta</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,2</span></i>
+          <i class="fa fa-calendar"><span> 2005</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/trainspotting.png" />
+        <h2>Trainspotting</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,1</span></i>
+          <i class="fa fa-calendar"><span> 1996</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/river-kwai.png" />
+        <h2>The Bridge On The River Kwai</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,1</span></i>
+          <i class="fa fa-calendar"><span> 2008</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/gran-torino.png" />
+        <h2>Gran Torino</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,1</span></i>
+          <i class="fa fa-calendar"><span> 2008</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/million-dollar.png" />
+        <h2>Million Dollar Woman</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,1</span></i>
+          <i class="fa fa-calendar"><span> 2004</span></i>
+        </p>
+      </div>
+      <div class="movie">
+        <img src="./img/big-lebowski.png" />
+        <h2>Big Lebowski</h2>
+        <p class="info-container">
+          <i class="fa fa-star-o"><span> 8,1</span></i>
+          <i class="fa fa-calendar"><span> 1998</span></i>
+        </p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <span class="copyright">© 2020 Copyright Marko Milenkovic</span>
+    </div>
+  </footer>
+  <script type="text/javascript" src="main.js">
+  </script>
+</body>
+</html>
